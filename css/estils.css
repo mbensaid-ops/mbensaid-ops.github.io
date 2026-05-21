@@ -208,20 +208,13 @@ img {
 }
 
 
-.galeria {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
+<div class="galeria">
 
-.galeria img {
-    width: 50px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px gray;
-}
+	<img src="img/Samsung AI.jpeg" alt="Samsung AI">
+
+	<img src="img/Samsung factory.jpeg" alt="Samsung Factory">
+
+</div>
 /* Responsive design */
 @media (max-width: 600px) {
   header {
